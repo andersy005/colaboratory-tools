@@ -21,6 +21,10 @@ Or clone the repo:
 
     $ git clone https://github.com/andersy005/colabtools.git
     $ python setup.py install
+
+Or:
+
+    $ pip install git+https://github.com/andersy005/colaboratory-tools.git
     
 Contributing
 ------------
