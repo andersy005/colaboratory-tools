@@ -10,4 +10,4 @@ torch
 torchvision
 tensorboardX
 seaborn
-skimage
+scikit-image
