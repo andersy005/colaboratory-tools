@@ -9,8 +9,9 @@ import os
 import warnings
 import matplotlib.pyplot as plt
 import pathlib
-warnings.filterwarnings("ignore")
 from skimage import io
+warnings.filterwarnings("ignore")
+
 
 
 class CustomDataset(Dataset):
