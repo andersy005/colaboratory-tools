@@ -2,3 +2,7 @@ pillow==4.0.0
 torch
 torchvision
 tensorboardX
+-e git://github.com/ioam/holoviews.git
+holoext==0.0.3
+seaborn
+
