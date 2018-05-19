@@ -5,9 +5,13 @@
 #coverage
 #pypi-publisher
 
-pillow==4.0.0
+pillow
 torch
 torchvision
 tensorboardX
 seaborn
 scikit-image
+holoviews
+scikit-plot
+skorch
+pandas-profiling
