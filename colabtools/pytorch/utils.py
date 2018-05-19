@@ -30,7 +30,7 @@ class Logger:
 
     def log(self, d_error, g_error, epoch, n_batch, num_batches):
 
-        var_class = torch.autograd.variable.Variable
+        var_class = torch.autograd.variable
         if type(d_error)==var_class:
             d_error = d_error.data.cpu().numpy()
         if type(g_error)==var_class:
@@ -98,7 +98,7 @@ class Logger:
 
     def display_status(self, epoch, num_epochs, n_batch, num_batches, d_error, g_error, d_pred_real, d_pred_fake):
         
-        var_class = torch.autograd.variable.Variable
+        var_class = torch.autograd.variable
         if type(d_error)==var_class:
             d_error = d_error.data.cpu().numpy()[0]
         if type(g_error)==var_class:
